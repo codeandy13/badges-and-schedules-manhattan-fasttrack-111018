@@ -13,7 +13,7 @@ end
 room_number = [1,2,3,4,5,6,7]
 
 def assign_rooms(name)
-  assign_rooms.each do 
+  assign_rooms.each do
     puts assign_rooms[room_number].map
   puts "Hello #{name}, You'll be assigned to room #{room_number}"
 end
@@ -21,5 +21,5 @@ end
 each_with_index()
 
 def printer()
-  puts batch_badge_creator
-  puts assign_rooms
+  puts batch_badge_creator()
+  puts assign_rooms()
