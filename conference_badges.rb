@@ -1,8 +1,20 @@
 # Write your code here.
-batch_badge_creator = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(name)
  puts "Hello, my name is ${name}"
 end
 
-badge_maker(batch_badge_creator);
+def batch_badge_creator
+  names.each do 
+    badge_maker(speakers)
+
+end
+
+def assign_rooms(name)
+
+end
+
+def printer()
+  puts batch_badge_creator
+  puts assign_rooms
