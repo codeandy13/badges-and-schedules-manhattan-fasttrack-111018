@@ -21,5 +21,5 @@ end
 each_with_index()
 
 def printer()
-  puts batch_badge_creator()
-  puts assign_rooms()
+  puts batch_badge_creator(name)
+  puts assign_rooms(name)
