@@ -1,8 +1,8 @@
 # Write your code here.
-speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+batch_badge_creator = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def badge_maker(name)
  puts "Hello, my name is ${name}"
 end
 
-badge_maker();
+badge_maker(batch_badge_creator);
